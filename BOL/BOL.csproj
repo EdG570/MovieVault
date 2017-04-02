@@ -69,7 +69,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MovieVaultModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Movy.cs">
+    <Compile Include="Movie.cs">
       <DependentUpon>MovieVaultModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

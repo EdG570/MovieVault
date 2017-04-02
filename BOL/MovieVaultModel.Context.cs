@@ -26,7 +26,7 @@ namespace BOL
         }
     
         public virtual DbSet<MovieReview> MovieReviews { get; set; }
-        public virtual DbSet<Movy> Movies { get; set; }
+        public virtual DbSet<Movie> Movies { get; set; }
         public virtual DbSet<RentalHistory> RentalHistories { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }
